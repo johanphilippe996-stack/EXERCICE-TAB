@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,8 +18,8 @@
                 break;
 
             case "soustraction":
-                $resultat = $nombre - $i;
-                echo "$nombre - $i = $resultat <br>";
+                 
+                echo ($nombre + $i)."- $nombre = $i <br>";
                 break;
 
             case "multiplication":
@@ -30,7 +30,7 @@
             case "division":
                 if ($i != 0) {
                     $resultat = $nombre / $i;
-                    echo "$nombre ÷ $i = $resultat <br>";
+                    echo  ($nombre *$i)." ÷ $i = $resultat <br>";
                 } else {
                     echo "Division par zéro impossible<br>";
                 }
